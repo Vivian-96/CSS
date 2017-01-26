@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>selector attribute valuelist space</title>
+<meta charset="utf-8">
+
+<style type="text/css">
+	[title~=hello]
+	{
+		color:red;
+	}
+</style>
+</head>
+
+<body>
+<h1>可以应用样式：</h1>
+<h2 title="hello world">Hello world</h2>
+<p title="student hello">Hello W3School student!</p>
+<hr/>
+
+<h1>无法应用样式：</h1>
+<h2 title="world">Hello world</h2>
+<p title="student">Hello W3School student!</p>
+</body>
+</html>
