@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>css link</title>
+<title>link</title>
 <meta charset="utf-8">
 
 <style type="text/css">
-a:link {color:FF0000;}    /*未被访问的链接*/
-a:visited {color:#00FF00;}/*已被访问的链接*/
-a:hover {color:#FF00FF;}  /*鼠标指针移动到链接上*/
-a:active {color:#0000FF;} /*正在被点击的链接*/
+	a:link {color: #FF0000;}
+	a:visited {color: #00FF00;}
+	a:hover {color: #FF00FF;}
+	a:active {color: #0000FF;}
 </style>
 </head>
 
 <body>
-<p><b><a href="font-size.html" target="_blank">这是一个链接</a></b></p>
-
-<p><b>注释：</b>为了使定义生效，a:hover必须位于a:link和a:visited之后！！</p>
-
-<p><b>注释：</b>为了使定义生效，a:active必须位于a:hover之后！！</p>
+	<p><b><a href="http://www.W3School.com.cn" target="_blank">这是一个链接。</a></b></p>
+	<p><b>注释：</b>在CSS定义中，a:hover必须位于a:link和a:visited之后，这样才能生效！</p>
+	<p><b>注释：</b>在CSS定义中，a:active必须位于a:hover之后，这样才能生效！</p>
 </body>
 </html>
