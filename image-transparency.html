@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>image transparency</title>
+<meta charset="utf-8">
+
+<style type="text/css">
+	img
+	{
+		opacity: 0.4;
+		filter: alpha(opacity=40);
+	}
+	img:hover
+	{
+		opacity: 1.0;
+		filter: alpha(opacity=100);
+	}
+</style>
+</head>
+
+<body>
+	<h1>图像的透明度</h1>
+	<img src="flower-4.jpg" alt="Peach Blossom" />
+	<p><b>注释：</b>在IE中，必须添加<!DOCTYPE>，这样才能将：hover选择器用于除了<a>之外的其他元素。</p>
+</body>
+</!DOCTYPE html>
+</html>
