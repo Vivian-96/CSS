@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>box sizing</title>
+<meta charset="utf-8">
+
+<style type="text/css">
+	div.container
+	{
+		border: 1em solid;
+		width: 30em;
+	}
+	div.box
+	{
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		width: 50%;
+		border: 1em solid red;
+		float: left;
+	}
+</style>
+</head>
+
+<body>
+	<div class="container"></div>
+	<div class="box">这个div占据左半部分。</div>
+	<div class="box">这个div占据右半部分。</div>
+</body>
+</html>
